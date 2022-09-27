@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>VitShop</title>
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/8fc17f47e8.js" crossorigin="anonymous"></script>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+  <!-- animate -->
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light animated flash " style="text-align: left">
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span>
+        </button>
+        <a href="" class="navbar-brand" style="font-family: 'Ubuntu', sans-serif;">VitShop</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Around Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div>
+        <div class="row">
+          <div class="col-lg-8"> <!--  animated slideInLeft -->
+            <h1><b><i>A Portal<br>Between <br> VIT & Vellore</i></b></h1>
+            <!-- Students & Shops, Where can we go & Let's go there. Carousal with 2000 data-bs-interval -->
+            <button type="button" class="btn btn-dark btn-lg" style="margin-right:22px"><i class="fa-solid fa-graduation-cap"></i> I'm a VITian</button>
+            <button type="button" class="btn btn-outline-dark btn-lg"><i class="fa-solid fa-shop"></i> I have a Shop</button>
+          </div>
+          <div class="col-lg-4" style="margin-top: 80px">
+            <img class="iphone" src="images/travel2.png" alt="iphone-mockup">  <!-- animated flip -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-3 feat">
+        <h3><i class="icon fa-sharp fa-solid fa-people-roof fa-2x"></i><br>Customers</h3>
+        <p>When a shop registers with us, we add it to our database, making it visible to all the VITians</p>
+      </div>
+      <div class="col-lg-3 feat">
+        <h3><i class="icon fa-solid fa-person-walking-with-cane fa-2x"></i><br>Accessibility</h3>
+        <p>With our large and trusted database, students can find all kinds of shops they need.</p>
+      </div>
+      <div class="col-lg-3 feat">
+        <h3><i class="icon fa-solid fa-medal fa-2x"></i> <br>Win-Win For all</h3>
+        <p>The shops get a listing and recognition. The students have to nomore rely on their limited sources.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-pause:"hover" data-bs-interval="3000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>"Earlier I used to ask my friends for which shop I should visit and therefore had a very limited database but now with VitShop, I can get information and reviews about all the shops nearby. It has made my college life very easy."</h2>
+          <img src="images/vitian-img.jpg" style="border-radius:100%; width:10%; margin-top:10px;" alt="profile">
+          <em>Pranay, A VITian</em>
+        </div>
+        <div class="carousel-item">
+          <h2>"Even though, there are tens of thousands of people in VIT, very few of them knew about my shops and even fewer used to come and purchase, due to lack of credibility. But VitShop has changed everything. Thank You VITShop."</h2>
+          <img src="images/shopkeeper-img.jpg" style="border-radius:100%; width:10%; margin-top:10px;" alt="profile">
+          <em>Chandu, Shopkeeper</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press" style="margin: 60px 0;">
+    <!-- <img class="press-img" ; src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-img" ; src="images/tnw.png" alt="tnw-logo">
+    <img class="press-img" ; src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-img" ; src="images/mashable.png" alt="mashable-logo"> -->
+    <img class="press-img" ; src="images/sideshops night.jpg" alt="mashable-logo" style="width: 100%; height: 200px; padding: 0 60px ">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+
+
+
+  <section id="pricing">
+
+    <h2 style="font-family:Montserrat"><em>We have listed all kinds of shop you'll ever need</em></h2>
+    <p><i>Just select the category and get all the information</i></p>
+
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card" style="margin:10px;">
+           <!-- <img class="card-img-top" src="images/imgbin_icon-png.png" alt="Card image cap"> -->
+          <div class="card-header">
+            <h3>Grocery Shops</h3>
+          </div>
+
+          <div class="card-body ">
+            <h2>Total: 30</h2>
+            <p>Under 5 km: 8 </p>
+            <p>5 to 10 km: 8</p>
+            <p>More than 10 km: 14</p>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Check Out !!</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card" style="margin:10px;">
+          <!-- <img class="card-img-top" src="images/Screenshot_2022-09-24_162930-removebg-preview.png" alt="Card image cap"> -->
+          <div class="card-header">
+            <h3>Restaurants</h3>
+          </div>
+
+          <div class="card-body">
+            <h2>Total: 21</h2>
+            <p>Under 5 km: 3 </p>
+            <p>5 to 10 km: 9</p>
+            <p>More than 10 km: 9</p>
+            <button type="button" class="btn btn-lg btn-block btn-dark">I'm Hungry !!</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card" style="margin:10px;">
+          <!-- <img class="card-img-top" src="images/w.png" alt="Card image cap"> -->
+          <div class="card-header">
+            <h3>Fashion and Style</h3>
+          </div>
+
+          <div class="card-body">
+            <h2>Total: 14</h2>
+            <p>Under 5 km: 2 </p>
+            <p>5 to 10 km: 5</p>
+            <p>More than 10 km: 7</p>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Clothess !!</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 style="margin:50px; font-family:Montserrat;"> <b>If you have a shop, Join us today !!</b></h3>
+    <button type="button" class="btn btn-md btn-dark ctabut" style="margin-right: 10px">Mail us @ VITShop</button>
+    <button type="button" class="btn btn-md btn-outline-dark ctabut">Request a Call Back</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+      <br>
+      <a href=""><i class="footer-icons fa-brands fa-twitter"></i></a>
+      <a href=""><i class="footer-icons fa-brands fa-facebook-f"></i></a>
+      <a href=""><i class="footer-icons fa-brands fa-instagram"></i></a>
+      <a href=""><i class="footer-icons fa-brands fa-linkedin"></i></a>
+      <a href=""><i class="footer-icons fa-solid fa-envelope"></i></a>
+      <br>
+      <p>© Copyright arey_pranay</p>
+      <br>
+
+    </footer>
+
+
+</body>
+
+</html>
